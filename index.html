@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Freddy's Stove</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <nav class="navbar">
+    <ul id="mySidenav" class="navbar-nav sidenav">
+      <div class="logo">Freddy's Stove</div>
+      <div class="nav-items">
+        <a class="nav-link" href="#Menu-section" onclick="navClick();">Menu</a>
+        <a class="nav-link" href="#Reservation-section" onclick="navClick();">Reservation</a>
+        <a class="nav-link" href="#ContactUs-section" onclick="navClick();">Contact Us</a>
+        <a class="nav-link" href="#AboutUs-section" onclick="navClick();">About Us</a>
+      </div>
+    </ul>
+  </nav>
+  <div id="Menu-section" class="sec" style="display:none;">
+    <div class="item" data-aos="slide-up">
+      <div class="fimg">
+        <img class="food-img" src="images/appetizer.jpg" alt="appetizer">
+      </div>
+      <h2>Appetizers</h2>
+      <div class="menu-items container">
+        <div class="row">
+          <div class="col-6">Classic FREDDYS™ Combo</div>
+          <div class="col-6">$13.59</div>
+        </div>
+        <div class="row">
+          <div class="col-6">FREDDYS™ Signature Whiskey-Glazed Sampler</div>
+          <div class="col-6">$15.69</div>
+        </div>
+        <div class="row">
+          <div class="col-6">Wings Roulette</div>
+          <div class="col-6">$17.49</div>
+        </div>
+        <div class="row">
+          <div class="col-6">Boneless Wings</div>
+          <div class="col-6">$10.89</div>
+        </div>
+        <div class="row">
+          <div class="col-6">Traditional Wings</div>
+          <div class="col-6">$12.09</div>
+        </div>
+        <div class="row">
+          <div class="col-6">FREDDYS™ Signature Whiskey-Glazed Sesame Chicken Strips</div>
+          <div class="col-6">$11.09</div>
+        </div>
+        <div class="row">
+          <div class="col-6">Mozzarella Sticks</div>
+          <div class="col-6">$8.89</div>
+        </div>
+        <div class="row">
+          <div class="col-6">Loaded Potato Skins</div>
+          <div class="col-6">$9.09</div>
+        </div>
+        <div class="row">
+          <div class="col-6">Green Bean Fries</div>
+          <div class="col-6">$8.09</div>
+        </div>
+        <div class="row">
+          <div class="col-6">Pan-Seared Pot Stickers</div>
+          <div class="col-6">$9.79</div>
+        </div>
+        <div class="row">
+          <div class="col-6">Spinach & Artichoke Dip</div>
+          <div class="col-6">$9.89</div>
+        </div>
+        <div class="row">
+          <div class="col-6">Warm Pretzels</div>
+          <div class="col-6">$8.89</div>
+        </div>
+        <div class="row">
+          <div class="col-6">FREDDYS™ Signature Whiskey-Glazed Sliders</div>
+          <div class="col-6">$10.09</div>
+        </div>
+        <div class="row">
+          <div class="col-6">Philly Cheesesteak Egg Rolls</div>
+          <div class="col-6">$13.59</div>
+        </div>
+      </div>
+    </div>
+    <div class="item" data-aos="slide-up">
+      <div class="fimg">
+        <img class="food-img" src="images/pasta.jpg" alt="pasta">
+      </div>
+      <h2>Chicken, Seafood & Pasta</h2>
+      <div class="menu-items container">
+        <div class="row">
+          <div class="col-6">Chicken & Broccoli Alfredo Tortelloni</div>
+          <div class="col-6">$16.69</div>
+        </div>
+        <div class="row">
+          <div class="col-6">Cajun Shrimp & Chicken Pasta</div>
+          <div class="col-6">$15.09</div>
+        </div>
+        <div class="row">
+          <div class="col-6">Chicken Parmesan Pasta</div>
+          <div class="col-6">$15.09</div>
+        </div>
+        <div class="row">
+          <div class="col-6">FREDDYS™ Signature Whiskey-Glazed Chicken</div>
+          <div class="col-6">$15.59</div>
+        </div>
+        <div class="row">
+          <div class="col-6">Fried Shrimp</div>
+          <div class="col-6">$14.69</div>
+        </div>
+        <div class="row">
+          <div class="col-6">Crispy Chicken Fingers</div>
+          <div class="col-6">$12.89</div>
+        </div>
+        <div class="row">
+          <div class="col-6">Boneless Wings</div>
+          <div class="col-6">$10.89</div>
+        </div>
+        <div class="row">
+          <div class="col-6">Traditional Wings</div>
+          <div class="col-6">$12.09</div>
+        </div>
+        <div class="row">
+          <div class="col-6">Sizzling Chicken & Cheese</div>
+          <div class="col-6">$14.69</div>
+        </div>
+        <div class="row">
+          <div class="col-6">Sizzling Chicken & Shrimp</div>
+          <div class="col-6">$15.69</div>
+        </div>
+        <div class="row">
+          <div class="col-6">Fish & Chips</div>
+          <div class="col-6">$15.29</div>
+        </div>
+      </div>
+    </div>
+    <div class="item" data-aos="slide-up">
+      <div class="fimg">
+        <img class="food-img" src="images/soup.jpg" alt="soup">
+      </div>
+      <h2>Sides & Soups</h2>
+      <div class="menu-items container">
+        <div class="row">
+          <div class="col-6">White Cheddar Broccoli Cheese Soup</div>
+          <div class="col-6">$5.09</div>
+        </div>
+        <div class="row">
+          <div class="col-6">Seasoned Fries</div>
+          <div class="col-6">$4.79</div>
+        </div>
+        <div class="row">
+          <div class="col-6">Giant Onion Rings</div>
+          <div class="col-6">$3.89</div>
+        </div>
+        <div class="row">
+          <div class="col-6">Fried Shrimp</div>
+          <div class="col-6">$2.59</div>
+        </div>
+        <div class="row">
+          <div class="col-6">Fried Shrimp</div>
+          <div class="col-6">$3.09</div>
+        </div>
+        <div class="row">
+          <div class="col-6">Cheddar Mac & Cheese</div>
+          <div class="col-6">$3.59</div>
+        </div>
+        <div class="row">
+          <div class="col-6">Coleslaw</div>
+          <div class="col-6">$1.99</div>
+        </div>
+        <div class="row">
+          <div class="col-6">Lemon-Butter Broccoli</div>
+          <div class="col-6">$2.99</div>
+        </div>
+        <div class="row">
+          <div class="col-6">Mashed Potatoes</div>
+          <div class="col-6">$1.69</div>
+        </div>
+        <div class="row">
+          <div class="col-6">Basket of Breadsticks</div>
+          <div class="col-6">$1.99</div>
+        </div>
+      </div>
+    </div>
+    <div class="item" data-aos="slide-up">
+      <div class="fimg">
+        <img class="food-img" src="images/cake.jpg" alt="cake">
+      </div>
+      <h2>Desserts</h2>
+      <div class="menu-items container">
+        <div class="row">
+          <div class="col-6">Carlo's Bakery Rainbow Cak</div>
+          <div class="col-6">$9.69</div>
+        </div>
+        <div class="row">
+          <div class="col-6">Brownie Obsession</div>
+          <div class="col-6">$7.09</div>
+        </div>
+        <div class="row">
+          <div class="col-6">Caramel Pecan Cheesecake</div>
+          <div class="col-6">$8.29</div>
+        </div>
+        <div class="row">
+          <div class="col-6">Apple Pie</div>
+          <div class="col-6">$7.49</div>
+        </div>
+        <div class="row">
+          <div class="col-6">Chocolate Chip Cookies Box</div>
+          <div class="col-6">$13.49</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="Reservation-section" class="sec" style="display:none;">
+    <div class="simg">
+      <img class="sec-img" src="images/reserve.jpg" alt="reservation">
+    </div>
+    <h1 class="bg-h1" data-aos="slide-up">Request a Reservation</h1>
+    <div class="container mx-auto">
+      <form onsubmit="reserve();">
+        <input type="text" class="form-control" placeholder="First name" required>
+        <input type="text" class="form-control" placeholder="Last name" required>
+        <input type="date" class="form-control" placeholder="Date" required>
+        <input type="time" class="form-control" placeholder="Time" required>
+        <input type="tel" class="form-control" placeholder="Phone Number" required>
+        <div class="d-grid gap-2">
+          <input type="submit" class="btn btn-dark" class="form-control" placeholder="Submit">
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div id="ContactUs-section" class="sec" style="display:none;">
+    <div class="simg">
+      <img class="sec-img" src="images/contact.jpg" alt="contact">
+    </div>
+    <h1 data-aos="slide-up">Contact Us</h1>
+    <form onsubmit="contact();">
+      <input type="text" class="form-control" placeholder="First name" required>
+      <input type="text" class="form-control" placeholder="Last name" required>
+      <input type="tel" class="form-control" placeholder="Phone Number" required>
+      <textarea class="form-control" rows="5" placeholder="Message"></textarea>
+      <div class="d-grid gap-2">
+        <input type="submit" class="btn btn-dark" class="form-control" placeholder="Submit">
+      </div>
+    </form>
+  </div>
+
+  <div id="AboutUs-section" class="sec" style="display:none;">
+    <div class="simg">
+      <img class="sec-img" src="images/about.jpg" alt="about">
+    </div>
+    <h1 data-aos="slide-up">About Us</h1>
+    <div class="about-para">
+      <p>
+        Freddy’s Stove is home of the amazing Table-Side Caesar Spun Signature Salad, specially made table side from a rundown of 10 fixings including blue cheddar, shrimp, olives, banana peppers, anchovies and our homemade mystery
+        Caesar dressing. Other house top choices are our Grilled or Chilled Shrimp, new walleye conveyed every day from Red Lake Nation in Minnesota and house ground steak burgers.
+        Our menu offers something for everybody, from light passage of plates of mixed greens and little nibbles to the inconceivable T Bone steak. Our steaks are sliced in house to guarantee flawlessness and expertly barbecued at 2,000 degrees.
+        We will probably give excellent client benefit, the best quality fixings, and a noteworthy affair whether it’s an uncommon occasion, easygoing social event of companions or a sentimental night out on the town.
+        Freddy’s Stove is situated in downtown Wayzata, straightforwardly opposite lofty Lake Minnetonka. Extraordinary administration and a fun vibe keep local people returning and guests raving.
+      </p>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script type="text/javascript" src="index.js">
+  </script>
+</body>
+
+</html>
